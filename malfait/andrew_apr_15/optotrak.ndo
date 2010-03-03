@@ -1,0 +1,114 @@
+[Experiment]
+Description=New Experiment
+NumberOfTrials=10
+NumberOfRigids=0
+NumberOfMarkers=1
+NumberOfOdaus=1
+OdauHwRev=2
+OdauFileFormat=0
+Interface=1
+CameraFile=standard.cam
+MissingHandle=0
+PowerOverride=FALSE
+bPublishRaw=FALSE
+[OPTOTRAK System]
+NumberOfMarkers=1
+DynamicDutyCycle=FALSE
+DutyCycle=0.400000
+StroberVoltage=7.500000
+MarkerFrequency=2500.000000
+FrameFrequency=200.000000
+CollectionTime=3.000000
+StaticThresholdValue=30
+MinimumGain=160
+InterpolationFlag=TRUE
+GetNextFrameFlag=FALSE
+StaticThresholdFlag=FALSE
+ExternalSyncFlag=FALSE
+ExternalTriggerFlag=FALSE
+StreamData=1
+Buffer3dFlag=FALSE
+BufferFullRawFlag=FALSE
+bConvertOnHost=TRUE
+bRigidOnHost=TRUE
+bPollRealData=TRUE
+[Strober Table]
+Port1=1
+Port2=0
+Port3=0
+Port4=0
+[Marker 1]
+MarkerName=Marker_01
+FOR=-1
+Visible=TRUE
+ViewRaw=FALSE
+[Marker 2]
+MarkerName=Marker_02
+FOR=-1
+Visible=TRUE
+ViewRaw=FALSE
+[Marker 3]
+MarkerName=Marker_03
+FOR=-1
+Visible=TRUE
+ViewRaw=FALSE
+[Marker 4]
+MarkerName=Marker_04
+FOR=-1
+Visible=TRUE
+ViewRaw=FALSE
+[Marker 5]
+MarkerName=Marker_05
+FOR=-1
+Visible=TRUE
+ViewRaw=FALSE
+[Marker 6]
+MarkerName=Marker_06
+FOR=-1
+Visible=TRUE
+ViewRaw=FALSE
+[ODAU 1]
+Description=ODAU1
+FrameFrequency=100
+NumberOfChannels=8
+Gain=1
+DigitalModeFlag=0
+bDifferential=FALSE
+ScanFrequency=90000
+bMultiplexer=FALSE
+[ODAU1_A0]
+Description=ODAU1_A0
+[ODAU1_A1]
+Description=ODAU1_A1
+[ODAU1_A2]
+Description=ODAU1_A2
+[ODAU1_A3]
+Description=ODAU1_A3
+[ODAU1_A4]
+Description=ODAU1_A4
+[ODAU1_A5]
+Description=ODAU1_A5
+[ODAU1_A6]
+Description=ODAU1_A6
+[ODAU1_A7]
+Description=ODAU1_A7
+[Trial 1]
+Description=Trial_1
+[Trial 2]
+Description=Trial_2
+[Trial 3]
+Description=Trial_3
+[Trial 4]
+Description=Trial_4
+[Trial 5]
+Description=Trial_5
+[Trial 6]
+Description=Trial_6
+[Trial 7]
+Description=Trial_7
+[Trial 8]
+Description=Trial_8
+[Trial 9]
+Description=Trial_9
+[Trial 10]
+Description=Trial_10

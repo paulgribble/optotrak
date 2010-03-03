@@ -1,0 +1,40 @@
+Evaluators
+{
+
+Optotrak : Optotrak0
+{
+OPTOTRAK Version 1.03
+C:\data\andrew_apr_15\optotrak.ndo
+}
+TextViewer : TextViewer1
+{
+WR = 0,379,905,313,558
+3D Position3d_01
+}
+
+}
+
+Connections
+{
+
+Connection : 0
+{
+From Optotrak0.Marker_01
+To TextViewer1.Position3d_01
+}
+
+}
+
+GraphViewLayout
+{
+
+Windows
+{
+
+Optotrak0 : 45 91 150 100 FALSE
+TextViewer1 : 298 96 150 100 FALSE
+}
+
+
+}
+
